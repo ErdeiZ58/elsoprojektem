@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+///<reference path="../../node_modules/@angular/compiler/src/core.d.ts"/>
+///<reference path="../../node_modules/@angular/core/src/metadata/ng_module.d.ts"/>
+import {Component, NgModule} from '@angular/core';
+
+
 
 @Component({
   selector: 'app-root',
@@ -9,6 +13,7 @@ export class AppComponent {
   title = 'BEGZ Consulting';
   korte = 5;
   tomb = [1, 2, 3, 4, 5, 6, 7];
+
 
 
 
